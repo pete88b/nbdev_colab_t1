@@ -55,62 +55,54 @@ nb_path: "00_core.ipynb"
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Collecting git+https://github.com/pete88b/nbdev_colab_helper.git
-  Cloning https://github.com/pete88b/nbdev_colab_helper.git to /tmp/pip-req-build-938zvpd3
-  Running command git clone -q https://github.com/pete88b/nbdev_colab_helper.git /tmp/pip-req-build-938zvpd3
+  Cloning https://github.com/pete88b/nbdev_colab_helper.git to /tmp/pip-req-build-nrsuyk4u
+  Running command git clone -q https://github.com/pete88b/nbdev_colab_helper.git /tmp/pip-req-build-nrsuyk4u
+Requirement already satisfied (use --upgrade to upgrade): nbdev-colab-helper==0.0.1 from git+https://github.com/pete88b/nbdev_colab_helper.git in /usr/local/lib/python3.6/dist-packages
 Building wheels for collected packages: nbdev-colab-helper
   Building wheel for nbdev-colab-helper (setup.py) ... done
-  Created wheel for nbdev-colab-helper: filename=nbdev_colab_helper-0.0.1-cp36-none-any.whl size=9523 sha256=af658f29f7f2687737c50d7c251dcb9be1f24cdf8e11da85e1845427f9d5a4f7
-  Stored in directory: /tmp/pip-ephem-wheel-cache-6fqkz8sj/wheels/11/52/f4/a49fbdda142e8992bb1695aa9eb30f499294a14cfb4b753fbe
+  Created wheel for nbdev-colab-helper: filename=nbdev_colab_helper-0.0.1-cp36-none-any.whl size=9523 sha256=145493b02063eac474520be9a61c0e4f00bf987cc476fc71ab035f419e194d75
+  Stored in directory: /tmp/pip-ephem-wheel-cache-7ya2z_37/wheels/11/52/f4/a49fbdda142e8992bb1695aa9eb30f499294a14cfb4b753fbe
 Successfully built nbdev-colab-helper
-Installing collected packages: nbdev-colab-helper
-Successfully installed nbdev-colab-helper-0.0.1
 Connecting to google drive
-Go to this URL in a browser: https://accounts.google.com/o/oauth2/auth?client_id=947318989803-6bn6qk8qdgf4n4g3pfee6491hc0brc4i.apps.googleusercontent.com&amp;redirect_uri=urn%3aietf%3awg%3aoauth%3a2.0%3aoob&amp;scope=email%20https%3a%2f%2fwww.googleapis.com%2fauth%2fdocs.test%20https%3a%2f%2fwww.googleapis.com%2fauth%2fdrive%20https%3a%2f%2fwww.googleapis.com%2fauth%2fdrive.photos.readonly%20https%3a%2f%2fwww.googleapis.com%2fauth%2fpeopleapi.readonly&amp;response_type=code
-
-Enter your authorization code:
-··········
-Mounted at /content/drive
+Drive already mounted at /content/drive; to attempt to forcibly remount, call drive.mount(&#34;/content/drive&#34;, force_remount=True).
 /content/drive/My Drive/Colab Notebooks/github/nbdev_colab_t1
 pip install git+https://github.com/fastai/nbdev.git
    Collecting git+https://github.com/fastai/nbdev.git
-  Cloning https://github.com/fastai/nbdev.git to /tmp/pip-req-build-k6_zrlyo
+  Cloning https://github.com/fastai/nbdev.git to /tmp/pip-req-build-cbzjmxbu
+Requirement already satisfied (use --upgrade to upgrade): nbdev==1.0.2 from git+https://github.com/fastai/nbdev.git in /usr/local/lib/python3.6/dist-packages
 Requirement already satisfied: pip in /usr/local/lib/python3.6/dist-packages (from nbdev==1.0.2) (19.3.1)
 Requirement already satisfied: packaging in /usr/local/lib/python3.6/dist-packages (from nbdev==1.0.2) (20.4)
-Collecting fastcore&gt;=1.0.0
-  Downloading https://files.pythonhosted.org/packages/cc/92/233661d730b5613b4daf473cd28005bf2294fb1a858ce0bac57fbb7fa5ec/fastcore-1.0.0-py3-none-any.whl
+Requirement already satisfied: fastcore&gt;=1.0.0 in /usr/local/lib/python3.6/dist-packages (from nbdev==1.0.2) (1.0.0)
 Requirement already satisfied: nbformat&gt;=4.4.0 in /usr/local/lib/python3.6/dist-packages (from nbdev==1.0.2) (5.0.7)
 Requirement already satisfied: nbconvert&gt;=5.6.1 in /usr/local/lib/python3.6/dist-packages (from nbdev==1.0.2) (5.6.1)
 Requirement already satisfied: pyyaml in /usr/local/lib/python3.6/dist-packages (from nbdev==1.0.2) (3.13)
-Collecting fastscript&gt;=1.0.0
-  Downloading https://files.pythonhosted.org/packages/60/e4/7790e3ca100841566fdc1ccee413b9a9d40629d1858d86b1b9ffbc4fa75a/fastscript-1.0.0-py3-none-any.whl
+Requirement already satisfied: fastscript&gt;=1.0.0 in /usr/local/lib/python3.6/dist-packages (from nbdev==1.0.2) (1.0.0)
 Requirement already satisfied: pyparsing&gt;=2.0.2 in /usr/local/lib/python3.6/dist-packages (from packaging-&gt;nbdev==1.0.2) (2.4.7)
 Requirement already satisfied: six in /usr/local/lib/python3.6/dist-packages (from packaging-&gt;nbdev==1.0.2) (1.15.0)
-Requirement already satisfied: numpy in /usr/local/lib/python3.6/dist-packages (from fastcore&gt;=1.0.0-&gt;nbdev==1.0.2) (1.18.5)
-Requirement already satisfied: dataclasses in /usr/local/lib/python3.6/dist-packages (from fastcore&gt;=1.0.0-&gt;nbdev==1.0.2) (0.7)
 Requirement already satisfied: wheel in /usr/local/lib/python3.6/dist-packages (from fastcore&gt;=1.0.0-&gt;nbdev==1.0.2) (0.35.1)
-Requirement already satisfied: jupyter-core in /usr/local/lib/python3.6/dist-packages (from nbformat&gt;=4.4.0-&gt;nbdev==1.0.2) (4.6.3)
-Requirement already satisfied: ipython-genutils in /usr/local/lib/python3.6/dist-packages (from nbformat&gt;=4.4.0-&gt;nbdev==1.0.2) (0.2.0)
-Requirement already satisfied: traitlets&gt;=4.1 in /usr/local/lib/python3.6/dist-packages (from nbformat&gt;=4.4.0-&gt;nbdev==1.0.2) (4.3.3)
+Requirement already satisfied: dataclasses in /usr/local/lib/python3.6/dist-packages (from fastcore&gt;=1.0.0-&gt;nbdev==1.0.2) (0.7)
+Requirement already satisfied: numpy in /usr/local/lib/python3.6/dist-packages (from fastcore&gt;=1.0.0-&gt;nbdev==1.0.2) (1.18.5)
 Requirement already satisfied: jsonschema!=2.5.0,&gt;=2.4 in /usr/local/lib/python3.6/dist-packages (from nbformat&gt;=4.4.0-&gt;nbdev==1.0.2) (2.6.0)
-Requirement already satisfied: pygments in /usr/local/lib/python3.6/dist-packages (from nbconvert&gt;=5.6.1-&gt;nbdev==1.0.2) (2.1.3)
-Requirement already satisfied: pandocfilters&gt;=1.4.1 in /usr/local/lib/python3.6/dist-packages (from nbconvert&gt;=5.6.1-&gt;nbdev==1.0.2) (1.4.2)
-Requirement already satisfied: entrypoints&gt;=0.2.2 in /usr/local/lib/python3.6/dist-packages (from nbconvert&gt;=5.6.1-&gt;nbdev==1.0.2) (0.3)
-Requirement already satisfied: jinja2&gt;=2.4 in /usr/local/lib/python3.6/dist-packages (from nbconvert&gt;=5.6.1-&gt;nbdev==1.0.2) (2.11.2)
-Requirement already satisfied: bleach in /usr/local/lib/python3.6/dist-packages (from nbconvert&gt;=5.6.1-&gt;nbdev==1.0.2) (3.1.5)
-Requirement already satisfied: testpath in /usr/local/lib/python3.6/dist-packages (from nbconvert&gt;=5.6.1-&gt;nbdev==1.0.2) (0.4.4)
-Requirement already satisfied: mistune&lt;2,&gt;=0.8.1 in /usr/local/lib/python3.6/dist-packages (from nbconvert&gt;=5.6.1-&gt;nbdev==1.0.2) (0.8.4)
+Requirement already satisfied: ipython-genutils in /usr/local/lib/python3.6/dist-packages (from nbformat&gt;=4.4.0-&gt;nbdev==1.0.2) (0.2.0)
+Requirement already satisfied: jupyter-core in /usr/local/lib/python3.6/dist-packages (from nbformat&gt;=4.4.0-&gt;nbdev==1.0.2) (4.6.3)
+Requirement already satisfied: traitlets&gt;=4.1 in /usr/local/lib/python3.6/dist-packages (from nbformat&gt;=4.4.0-&gt;nbdev==1.0.2) (4.3.3)
 Requirement already satisfied: defusedxml in /usr/local/lib/python3.6/dist-packages (from nbconvert&gt;=5.6.1-&gt;nbdev==1.0.2) (0.6.0)
+Requirement already satisfied: testpath in /usr/local/lib/python3.6/dist-packages (from nbconvert&gt;=5.6.1-&gt;nbdev==1.0.2) (0.4.4)
+Requirement already satisfied: pygments in /usr/local/lib/python3.6/dist-packages (from nbconvert&gt;=5.6.1-&gt;nbdev==1.0.2) (2.1.3)
+Requirement already satisfied: entrypoints&gt;=0.2.2 in /usr/local/lib/python3.6/dist-packages (from nbconvert&gt;=5.6.1-&gt;nbdev==1.0.2) (0.3)
+Requirement already satisfied: bleach in /usr/local/lib/python3.6/dist-packages (from nbconvert&gt;=5.6.1-&gt;nbdev==1.0.2) (3.1.5)
+Requirement already satisfied: pandocfilters&gt;=1.4.1 in /usr/local/lib/python3.6/dist-packages (from nbconvert&gt;=5.6.1-&gt;nbdev==1.0.2) (1.4.2)
+Requirement already satisfied: mistune&lt;2,&gt;=0.8.1 in /usr/local/lib/python3.6/dist-packages (from nbconvert&gt;=5.6.1-&gt;nbdev==1.0.2) (0.8.4)
+Requirement already satisfied: jinja2&gt;=2.4 in /usr/local/lib/python3.6/dist-packages (from nbconvert&gt;=5.6.1-&gt;nbdev==1.0.2) (2.11.2)
 Requirement already satisfied: decorator in /usr/local/lib/python3.6/dist-packages (from traitlets&gt;=4.1-&gt;nbformat&gt;=4.4.0-&gt;nbdev==1.0.2) (4.4.2)
-Requirement already satisfied: MarkupSafe&gt;=0.23 in /usr/local/lib/python3.6/dist-packages (from jinja2&gt;=2.4-&gt;nbconvert&gt;=5.6.1-&gt;nbdev==1.0.2) (1.1.1)
 Requirement already satisfied: webencodings in /usr/local/lib/python3.6/dist-packages (from bleach-&gt;nbconvert&gt;=5.6.1-&gt;nbdev==1.0.2) (0.5.1)
+Requirement already satisfied: MarkupSafe&gt;=0.23 in /usr/local/lib/python3.6/dist-packages (from jinja2&gt;=2.4-&gt;nbconvert&gt;=5.6.1-&gt;nbdev==1.0.2) (1.1.1)
 Building wheels for collected packages: nbdev
   Building wheel for nbdev (setup.py): started
   Building wheel for nbdev (setup.py): finished with status &#39;done&#39;
-  Created wheel for nbdev: filename=nbdev-1.0.2-cp36-none-any.whl size=54737 sha256=cfbd7e2f20804b0b0152a0d953d1e493de5643677bf52f9925b9b0fe3bc7009d
-  Stored in directory: /tmp/pip-ephem-wheel-cache-797075rn/wheels/92/fb/71/9ef9a3edcda4b045bd45abb28de841f18ab36606a7ff7473d4
-Successfully built nbdev
-Installing collected packages: fastcore, fastscript, nbdev
-Successfully installed fastcore-1.0.0 fastscript-1.0.0 nbdev-1.0.2 
+  Created wheel for nbdev: filename=nbdev-1.0.2-cp36-none-any.whl size=54737 sha256=0e626a68ae7cf9f3b91294a6b3d4677b1b88ce9bd1c0e60752383098c5f2d657
+  Stored in directory: /tmp/pip-ephem-wheel-cache-lvht6an7/wheels/92/fb/71/9ef9a3edcda4b045bd45abb28de841f18ab36606a7ff7473d4
+Successfully built nbdev 
 </pre>
 </div>
 </div>
@@ -230,6 +222,130 @@ Successfully installed fastcore-1.0.0 fastscript-1.0.0 nbdev-1.0.2
 </pre></div>
 
     </div>
+</div>
+</div>
+
+</div>
+    {% endraw %}
+
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
+
+</div>
+    {% endraw %}
+
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_markdown rendered_html output_subarea ">
+<h2 id="HelloSayer" class="doc_header"><code>class</code> <code>HelloSayer</code><a href="https://github.com/fastai/nbdev_colab_t1/tree/master/nbdev_colab_t1/core.py#L11" class="source_link" style="float:right">[source]</a></h2><blockquote><p><code>HelloSayer</code>(<strong><code>to</code></strong>)</p>
+</blockquote>
+<p>Say hello to <code>to</code> using <a href="/nbdev_colab_t1/core.html#say_hello"><code>say_hello</code></a></p>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    {% endraw %}
+
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_markdown rendered_html output_subarea ">
+<h4 id="HelloSayer.say" class="doc_header"><code>HelloSayer.say</code><a href="https://github.com/fastai/nbdev_colab_t1/tree/master/nbdev_colab_t1/core.py#L15" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>HelloSayer.say</code>()</p>
+</blockquote>
+<p>Do the saying</p>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    {% endraw %}
+
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">o</span> <span class="o">=</span> <span class="n">HelloSayer</span><span class="p">(</span><span class="s2">&quot;Alexis&quot;</span><span class="p">)</span>
+<span class="n">o</span><span class="o">.</span><span class="n">say</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>&#39;Hello Alexis!&#39;</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    {% endraw %}
+
+    {% raw %}
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">nbdev.export</span> <span class="k">import</span> <span class="n">notebook2script</span> <span class="c1"># &lt;- anyone know why this got commented out in __init__py )o:</span>
+<span class="n">notebook2script</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Converted 00_core.ipynb.
+Converted index.ipynb.
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 
